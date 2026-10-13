@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<packaging>pom</packaging>
+
+	<artifactId>test-01-parent</artifactId>
+
+	<parent>
+		<groupId>com.smartkyc.test</groupId>
+		<artifactId>test-01</artifactId>
+		<version>${revision}</version>
+	</parent>
+
+	<modules>
+		<module>test-01-core</module>
+		<module>test-01-documents</module>
+		<module>test-01-http</module>
+		<module>test-01-persistence</module>
+		<module>test-01-search</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.smartkyc.test</groupId>
+				<artifactId>test-01-bom</artifactId>
+				<version>${project.version}</version>
+				<scope>import</scope>
+				<type>pom</type>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-params</artifactId>
+		</dependency>
+	</dependencies>
+</project>
