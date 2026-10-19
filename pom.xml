@@ -43,7 +43,7 @@
 		<diffMatchPatch.version>1.2</diffMatchPatch.version>
 		<sonar.test.exclusions>src/test/**/*</sonar.test.exclusions>
 		<apache.poi.version>5.2.2</apache.poi.version>
-		<bouncycastle.version>1.70</bouncycastle.version>
+		<bouncycastle.version>1.77</bouncycastle.version>
 		<pdfbox.version>2.0.24</pdfbox.version>
 		<tika.version>2.4.0</tika.version>
 		<jjwt.version>0.11.2</jjwt.version>
