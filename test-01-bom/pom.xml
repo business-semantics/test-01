@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
 		<artifactId>test-01</artifactId>
 		<groupId>com.smartkyc.test</groupId>
@@ -13,10 +14,8 @@
 
 	<properties>
 		<compiler.version>21</compiler.version>
-
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 		<antlr.version>3.4</antlr.version>
 		<antlr4.version>4.13.2</antlr4.version>
 		<guava.version>33.3.1-jre</guava.version>
@@ -63,7 +62,8 @@
 		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 		<sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 		<sonar.language>java</sonar.language>
-		<jacocoArgLine/>
+		<jacocoArgLine />
+
 	</properties>
 
 	<dependencyManagement>
@@ -146,7 +146,8 @@
 				<version>78.3</version>
 			</dependency>
 
-			<!-- Ensure the versions of the commons-compress, commons-io and Apache POI libraries are aligned, as upgrading one may cause compatibility issues with the other  -->
+			<!-- Ensure the versions of the commons-compress, commons-io and Apache POI libraries
+			are aligned, as upgrading one may cause compatibility issues with the other  -->
 			<dependency>
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-compress</artifactId>
@@ -347,7 +348,8 @@
 				<version>${jackson-provider.version}</version>
 			</dependency>
 
-			<!-- Ensure the versions of the commons-compress, commons-io and Apache POI libraries are aligned, as upgrading one may cause compatibility issues with the other  -->
+			<!-- Ensure the versions of the commons-compress, commons-io and Apache POI libraries
+			are aligned, as upgrading one may cause compatibility issues with the other  -->
 			<dependency>
 				<groupId>commons-io</groupId>
 				<artifactId>commons-io</artifactId>
@@ -391,7 +393,8 @@
 				</exclusions>
 			</dependency>
 
-			<!-- Ensure the versions of the commons-compress, commons-io and Apache POI libraries are aligned, as upgrading one may cause compatibility issues with the other  -->
+			<!-- Ensure the versions of the commons-compress, commons-io and Apache POI libraries
+			are aligned, as upgrading one may cause compatibility issues with the other  -->
 			<dependency>
 				<groupId>org.apache.poi</groupId>
 				<artifactId>poi</artifactId>
@@ -665,14 +668,16 @@
 				<version>${jjwt.version}</version>
 			</dependency>
 
-			<!-- Defines version for snakeyaml that is included in elasticsearch-high-level-rest-client and jackson-databind to fix vulnerabilities -->
+			<!-- Defines version for snakeyaml that is included in
+			elasticsearch-high-level-rest-client and jackson-databind to fix vulnerabilities -->
 			<dependency>
 				<groupId>org.yaml</groupId>
 				<artifactId>snakeyaml</artifactId>
 				<version>2.0</version>
 			</dependency>
 
-			<!-- Defines version for jdom2 that is included in rome and htmlcleaner to fix vulnerabilities -->
+			<!-- Defines version for jdom2 that is included in rome and htmlcleaner to fix
+			vulnerabilities -->
 			<dependency>
 				<groupId>org.jdom</groupId>
 				<artifactId>jdom2</artifactId>
