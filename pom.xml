@@ -25,14 +25,14 @@
 		<httpclient5.version>5.5</httpclient5.version>
 		<okhttp.version>4.12.0</okhttp.version>
 		<kotlin.version>1.6.20</kotlin.version>
-		<jackson-provider.version>2.18.6</jackson-provider.version>
+		<jackson-provider.version>2.15.2</jackson-provider.version>
 		<jodatime.version>2.0</jodatime.version>
 		<junit.version>5.11.3</junit.version>
 		<powermock.version>2.0.0-RC.4</powermock.version>
 		<slf4j.version>2.0.16</slf4j.version>
 		<logback.version>1.5.27</logback.version>
-		<log4j2.version>2.25.3</log4j2.version>
-		<spring.version>6.2.11</spring.version>
+		<log4j2.version>2.14.1</log4j2.version>
+		<spring.version>6.0.0</spring.version>
 		<hibernate.core.version>6.6.45.Final</hibernate.core.version>
 		<spring.data.jpa.version>3.4.0</spring.data.jpa.version>
 		<org.lombok.version>1.18.36</org.lombok.version>
@@ -43,10 +43,10 @@
 		<compiler.version>21</compiler.version>
 		<diffMatchPatch.version>1.2</diffMatchPatch.version>
 		<sonar.test.exclusions>src/test/**/*</sonar.test.exclusions>
-		<apache.poi.version>5.4.1</apache.poi.version>
-		<bouncycastle.version>1.84</bouncycastle.version>
-		<pdfbox.version>2.0.36</pdfbox.version>
-		<tika.version>3.2.2</tika.version>
+		<apache.poi.version>5.2.2</apache.poi.version>
+		<bouncycastle.version>1.70</bouncycastle.version>
+		<pdfbox.version>2.0.24</pdfbox.version>
+		<tika.version>2.4.0</tika.version>
 		<jjwt.version>0.11.2</jjwt.version>
 		<mockito.version>5.14.2</mockito.version>
 
