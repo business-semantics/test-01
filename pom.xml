@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.smartkyc.test</groupId>
 	<artifactId>test-01</artifactId>
-	<version>${revision}</version>
+	<version>25.4.10-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<modules>
@@ -12,7 +12,6 @@
 	</modules>
 
 	<properties>
-		<revision>25.4.10-SNAPSHOT</revision>
 		<compiler.version>21</compiler.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
